@@ -7,7 +7,6 @@ public class z24 implements Polynome {
     }
 
     public double getValue(double x, double y) {
-        return -1 + 12 * Math.pow(x, 2) + 12 * Math.pow(y, 2) - 30 * Math.pow(x, 4) - 60 * Math.pow(x, 2) * Math.pow(y, 2) -
-                30 * Math.pow(y, 4) + 20 * Math.pow(x, 6) + 60 * Math.pow(x, 4) * Math.pow(y, 2) + 60 * Math.pow(x, 2) * Math.pow(y, 4) + 20 * Math.pow(y, 6);
+        return 3 * Math.pow(x, 2) - 3 * Math.pow(y, 2) - 4 * Math.pow(x, 4) + 4 * Math.pow(y, 4);
     }
 }

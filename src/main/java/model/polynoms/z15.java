@@ -7,6 +7,7 @@ public class z15 implements Polynome {
     }
 
     public double getValue(double x, double y) {
-        return Math.pow(x, 5) - 10 * Math.pow(x, 3) * Math.pow(y, 2) + 5 * x * Math.pow(y, 4);
+        return 3 * y - 12 * Math.pow(y, 3) - 12 * y * Math.pow(x, 2) + 10 * Math.pow(y, 5) +
+                20 * Math.pow(y, 3) * Math.pow(x, 2) + 10 * y * Math.pow(x, 4);
     }
 }

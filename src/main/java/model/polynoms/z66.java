@@ -2,8 +2,8 @@ package model.polynoms;
 
 import model.Polynome;
 
-public class z27 implements Polynome {
-    public z27() {
+public class z66 implements Polynome {
+    public z66() {
     }
 
     public double getValue(double x, double y) {
